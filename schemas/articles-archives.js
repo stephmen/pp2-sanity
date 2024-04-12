@@ -11,12 +11,6 @@ export default {
       type: 'string',
     },
     {
-      name: 'projet',
-      title: 'Projet',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'projet'}}],
-    },
-    {
       name: 'mainImage',
       title: 'Photo Article',
       type: 'image',
@@ -41,7 +35,7 @@ export default {
     },
     {
       name: 'body',
-      title: 'Body',
+      title: 'Contenu de L\'Article',
       type: 'blockContent',
     },
   ],
@@ -53,26 +47,11 @@ export default {
         {field: 'publishedAt', direction: 'desc'}
       ]
     },
-    {
-      title: 'Par projet desc',
-      name: 'parprojet',
-      by: [
-        {field: 'projet', direction: 'desc'}
-      ]
-    },
-    {
-      title: 'Par projet desc',
-      name: 'parprojet',
-      by: [
-        {field: 'projet', direction: 'desc'}
-      ]
-    }
   ],
 
   preview: {
     select: {
       media: 'mainImage',
-      title: 'projet.0.title',
       subtitle: 'title',
     },
   }
