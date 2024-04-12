@@ -1,0 +1,35 @@
+{
+  "name": "pourpour",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "stephmen <stephmen@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.18.0",
+    "@sanity/client": "^2.18.0",
+    "@sanity/components": "^2.14.0",
+    "@sanity/core": "^2.18.0",
+    "@sanity/default-layout": "^2.18.0",
+    "@sanity/default-login": "^2.18.0",
+    "@sanity/desk-tool": "^2.18.0",
+    "@sanity/vision": "^2.17.2",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "sanity-super-pane": "^1.0.0-alpha.1",
+    "styled-components": "^5.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephmen/pp2.git"
+  }
+}
