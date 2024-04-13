@@ -46,7 +46,7 @@ export default {
       return {
         media,
         title,
-        subtitle: new Date(date).toLocaleDateString('fr-FR'),
+        // subtitle: new Date(date).toLocaleDateString('fr-FR'),
       }
     }
   }

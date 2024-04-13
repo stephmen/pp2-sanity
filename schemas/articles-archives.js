@@ -25,8 +25,21 @@ export default {
       title: 'Date de Parution de L\'artice',
       type: 'datetime',
     },
-    
-
+    {
+      name: 'auteur',
+      title: 'Auteur',
+      type: 'string',
+    },
+    {
+      name: 'source',
+      title: 'source',
+      type: 'string',
+    },
+    {
+      name: 'url',
+      title: 'Address de l\'article (URL)',
+      type: 'string',
+    },
     {
       name: 'body',
       title: 'Contenu de L\'Article',
@@ -40,16 +53,11 @@ export default {
         hotspot: true,
       },
     },
-    {
-      name: 'url',
-      title: 'Address de l\'article (URL)',
-      type: 'string',
-    },
   ],
   orderings: [
     {
-      title: 'Date du Spectacle Récent',
-      name: 'releaseDateDesc',
+      title: 'Date Publication',
+      name: 'publishedAt',
       by: [
         {field: 'publishedAt', direction: 'desc'}
       ]
